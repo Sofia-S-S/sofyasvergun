@@ -1,0 +1,103 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+.wrapper {
+  background-image: url(*/../../images/kletka.png);
+}
+
+.body-main {
+  font-family: "Turret Road", cursive;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*header*/
+.myname {
+  color: darkgrey;
+  background-color: rgb(146, 89, 146);
+  margin-left: 150px;
+  margin-bottom: 0px;
+  padding: 5px 20px 5px 20px;
+}
+
+.header-main {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  color: blueviolet;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+/*body*/
+.headline {
+  border-bottom-color: rgb(150, 66, 228);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  color: rgb(150, 66, 228);
+}
+
+.content {
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.5px;
+  background-color: white;
+  padding: 24px;
+  margin: 25px 150px 100px 150px;
+}
+
+.images {
+  height: 250px;
+  width: 220px;
+  float: left;
+  padding: 24px;
+}
+
+/*footer*/
+.footer-main {
+  color: aliceblue;
+  background-color: rgb(180, 116, 180);
+  border-top-color: grey;
+  border-top-style: solid;
+  border-top-width: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+/*images*/
+.portfolio-image {
+  float: left;
+  height: 200px;
+  padding-right: 24px;
+  width: 100px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-grid-image {
+  margin: 12px;
+}
+.section-content {
+  max-width: 800px;
+}
+.section-main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+/*slova*/
+.slovo {
+  background-color: aqua;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
