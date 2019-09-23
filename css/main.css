@@ -2,6 +2,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
 .wrapper {
   background-image: url(*/../../images/kletka.png);
 }
@@ -14,11 +15,12 @@ a {
 }
 
 /*header*/
+
 .myname {
-  color: darkgrey;
   background-color: rgb(146, 89, 146);
-  margin-left: 150px;
+  color: darkgrey;
   margin-bottom: 0px;
+  margin-left: 150px;
   padding: 5px 20px 5px 20px;
 }
 
@@ -29,75 +31,105 @@ a {
   justify-content: space-between;
 }
 
+/*nav*/
+
+.navigation {
+  margin-right: 150px;
+}
+
 .button {
   color: blueviolet;
-  margin-right: 150px;
+  margin-left: 15px;
   margin-top: 50px;
 }
 
 /*body*/
+
 .headline {
   border-bottom-color: rgb(150, 66, 228);
-  border-bottom-width: 2px;
   border-bottom-style: solid;
+  border-bottom-width: 2px;
   color: rgb(150, 66, 228);
 }
 
 .content {
-  border-style: solid;
-  border-color: gray;
-  border-width: 0.5px;
   background-color: white;
-  padding: 24px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.5px;
   margin: 25px 150px 100px 150px;
+  padding: 24px;
 }
 
-.images {
-  height: 250px;
-  width: 220px;
+.foto {
   float: left;
+  height: 250px;
   padding: 24px;
+  width: 220px;
 }
 
-/*footer*/
-.footer-main {
-  color: aliceblue;
-  background-color: rgb(180, 116, 180);
-  border-top-color: grey;
-  border-top-style: solid;
-  border-top-width: 4px;
-  display: flex;
-  justify-content: center;
-  padding: 24px;
-}
+/*images for portfolio projects*/
 
-/*images*/
 .portfolio-image {
   float: left;
   height: 200px;
   padding-right: 24px;
   width: 100px;
 }
+
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
 }
+
 .portfolio-grid-image {
-  margin: 12px;
+  height: 200px;
+  width: 200px;
 }
+
 .section-content {
   max-width: 800px;
 }
+
 .section-main {
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
-/*slova*/
-.slovo {
-  background-color: aqua;
+
+/*logo on project's images*/
+
+.logo {
+  background-color: rgb(150, 66, 228);
+  bottom: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   position: absolute;
-  bottom: 10px;
-  width: 100%;
   text-align: center;
+  width: 100%;
+}
+
+.image-wrapper {
+  margin: 12px;
+  position: relative;
+}
+
+/*contacts*/
+
+.contacts {
+  font-size: 20px;
+}
+
+/*footer*/
+
+.footer-main {
+  background-color: rgb(180, 116, 180);
+  border-top-color: grey;
+  border-top-style: solid;
+  border-top-width: 4px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
 }
