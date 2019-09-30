@@ -133,3 +133,56 @@ a {
   justify-content: center;
   padding: 24px;
 }
+/*__________________media queries__________________*/
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  .content {
+    margin: 25px 100px 80px 100px;
+  }
+  .myname {
+    margin-left: 100px;
+  }
+  .navigation {
+    margin-right: 100px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .content {
+    margin: 40px 80px 40px 80px;
+  }
+  .myname {
+    margin-left: 80px;
+  }
+  .navigation {
+    margin-right: 80px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .content {
+    margin: 20px 30px 20px 30px;
+  }
+  .myname {
+    margin-left: 30px;
+  }
+  .navigation {
+    margin-right: 30px;
+  }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .content {
+    margin: 15px 25px 15px 25px;
+  }
+  .myname {
+    margin-left: 25px;
+    padding: 5px 2px 5px 2px;
+  }
+  .navigation {
+    margin-right: 25px;
+  }
+}
