@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Workout Tracker (Nosql)",
+    "image": "./images/Workout-Tracker.png",
+    "description": "For this project I created a workout tracker that use Mongo database with a Mongoose schema. Routes had been handle with Express",
+    "heroku": "https://workout-tracker-sofia.herokuapp.com/",
+    "github": "https://github.com/Sofia-S-S/Workout-Tracker"
+  },
+  {
+    "id": 2,
+    "name": "Burger's App (MySQL)",
+    "image": "https://images.unsplash.com/photo-1578404249989-0fcd5bd6eb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "In this project I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I followed the MVC design pattern,used Node and MySQL to query and route data in this app, and Handlebars to generate my HTML",
+    "heroku": "https://arcane-anchorage-35271.herokuapp.com/",
+    "github": "https://github.com/Sofia-S-S/Burger"
+  },
+  {
+    "id": 3,
+    "name": "Burger's App (MySQL)",
+    "image": "https://images.unsplash.com/photo-1578404249989-0fcd5bd6eb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "In this project I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I followed the MVC design pattern,used Node and MySQL to query and route data in this app, and Handlebars to generate my HTML",
+    "heroku": "https://arcane-anchorage-35271.herokuapp.com/",
+    "github": "https://github.com/Sofia-S-S/Burger"
+  },
+  {
+    "id": 4,
+    "name": "Burger's App (MySQL)",
+    "image": "https://images.unsplash.com/photo-1578404249989-0fcd5bd6eb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "In this project I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I followed the MVC design pattern,used Node and MySQL to query and route data in this app, and Handlebars to generate my HTML",
+    "heroku": "https://arcane-anchorage-35271.herokuapp.com/",
+    "github": "https://github.com/Sofia-S-S/Burger"
+  },
+  {
+    "id": 5,
+    "name": "Burger's App (MySQL)",
+    "image": "https://images.unsplash.com/photo-1578404249989-0fcd5bd6eb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "description": "In this project I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I followed the MVC design pattern,used Node and MySQL to query and route data in this app, and Handlebars to generate my HTML",
+    "heroku": "https://arcane-anchorage-35271.herokuapp.com/",
+    "github": "https://github.com/Sofia-S-S/Burger"
+  }
+]
