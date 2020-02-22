@@ -53,19 +53,21 @@ function NavTabs() {
       </div>
 
       <div className="page">
-        <Link
+        {/* <Link
           to="/Resume"
           className={
             window.location.pathname === "/" ? "nav-link active" : "nav-link"
           }
-        >
+        > */}
+        <a href="/Resume.pdf" target="_blank">
           <img
             className="icon-big"
             src={require("./images/pdf.png")}
             alt="resume"
           />
           Resume
-        </Link>
+          {/* </Link> */}
+        </a>
       </div>
     </header>
   );

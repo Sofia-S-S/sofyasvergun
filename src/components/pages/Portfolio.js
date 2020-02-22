@@ -15,7 +15,7 @@ function Portfolio() {
               <img
                 className="project-image"
                 alt={project.name}
-                src={project.image}
+                src={require(`../images/${project.image}`)}
               />
               <div className="project-content">
                 <h1 className="project-name">{project.name}</h1>
